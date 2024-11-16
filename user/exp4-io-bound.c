@@ -8,14 +8,16 @@
 #define num_lines 100
 char file[12] = "ioboundpath";
 
-void swap(int * a, int * b){
-  int tmp = *a;
+void swap(char * a, char * b){
+  char tmp = *a;
   *a = *b;
   *b = tmp;
 }
 
 // escreve 100 vezes linhas de 100 caracteres em um arquivo
-void write_lines(int fp){
+void write_lines(){
+  int fp = open(file, O_WRONLY | O_CREATE);
+
   char buf[line_size + 5];
   buf[line_size] = '\n';
   buf[line_size + 1] = '\0';
@@ -25,42 +27,38 @@ void write_lines(int fp){
     }
     write(fp, buf, line_size + 1);
   }
+
+  close(fp);
 }
 
 // executa 50 permutações entre linhas aleatórias de um arquivo
-void permute_lines(int fp){
+void permute_lines(){
   int sz = (line_size + 1) * (num_lines + 1);
   char *buf = malloc(((line_size + 1) * (num_lines + 1)) * sizeof (char));
 
-  // for(int i = 0; i < 50; i++){
+  for(int i = 0; i < 50; i++){
+    int fp = open(file, O_RDONLY);
+    int rsz = read(fp, buf, sz);
+    close(fp);
+
     int l1 = random(0, 99);
     int l2 = random(0, 99);
 
-    if(l1 > l2) {
-      swap(&l1, &l2);
+    for(int i = 0; i <= line_size; i++){
+      swap(&buf[l1 * (line_size + 1) + i], &buf[l2 * (line_size + 1) + i]);
     }
 
-    int rsz = read(fp, buf, sz);
-    printf("%d\n", rsz);
-    // write(1, buf, sz);
+    fp = open(file, O_WRONLY | O_TRUNC);
+    write(fp, buf, rsz);
+    close(fp);
+  }
 
-    for(int i = 0; i < num_lines; i++){
-      for(int j = 0; j <= line_size; j++){
-        write(1, &buf[i * (line_size + 1) + j], 1);
-      }
-    }
-  // }
-    free(buf);
+  free(buf);
 }
 
 int main(){
-  int fp = open(file, O_WRONLY | O_CREATE);
-
-  write_lines(fp);
-
-  fp = open(file, O_RDWR);
-
-  permute_lines(fp);
-
+  write_lines();
+  permute_lines();
+  unlink(file);
   return 0;
 }
