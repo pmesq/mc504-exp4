@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "fcntl.h": "c",
-        "random.h": "c"
+        "random.h": "c",
+        "exp4-io-bound.h": "c"
     }
 }

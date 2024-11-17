@@ -3,13 +3,12 @@
 #include "user/user.h"
 
 void print_float(int num, int den, int precision){
-    int pot = 1;
-    for(int i = 0; i < precision; i++) pot *= 10;
+    printf("%d.", num / den);
 
-    int piso = (num / den);
-    int n = (num * pot) / den;
-
-    printf("%d", piso);
-    printf(",");
-    printf("%d", n - piso * pot);
+    int resto = num % den;
+    for(int i = 0; i < precision; i++){
+        resto *= 10;
+        printf("%d", resto / den);
+        resto %= den;
+    }
 }
