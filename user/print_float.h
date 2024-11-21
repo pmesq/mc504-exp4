@@ -8,6 +8,6 @@
 /*
     Prints to stdin the fraction p/q, with precision of d digits.
 */
-void print_float(int p, int q, int d);
+void print_float(long p, long q, int d);
 
 #endif

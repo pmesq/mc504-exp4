@@ -19,11 +19,10 @@ int min(int a, int b){
 
 int main() {
   for (int round = 1; round <= ROUNDS; ++round) {
-    int tot_time = 0, mem_time = 0, file_time = 0, time;
+    int mem_time = 0, file_time = 0, time;
     
     printf("RODADA %d\n", round);
 
-    // int x = 1, y = 1;
     int x = random(6, 14), y = 20 - x;
     int proc_count = x + y;
 
@@ -76,7 +75,6 @@ int main() {
         read(fd_mem[0], &proc_mem_time, sizeof (proc_mem_time));
         read(fd_file[0], &proc_file_time, sizeof (proc_file_time));
         proc_times[i] = proc_tot_time;
-        tot_time += proc_tot_time;
         mem_time += proc_mem_time;
         file_time += proc_file_time;
         close(fd_tot[0]);
@@ -87,21 +85,26 @@ int main() {
     }
 
     // transforma em segundos
-    tot_time /= 10;
     mem_time /= 10;
     file_time /= 10;
+    int tot_time = 0;
     for (int i = 0; i < proc_count; ++i) {
       proc_times[i] /= 10;
+      tot_time += proc_times[i];
     }
+
+    printf("Tempo total de memoria: %ds\n", mem_time);
+    printf("Tempo total de arquivo: %ds\n", file_time);	
+    printf("Tempo total dos processos: %ds\n", tot_time);
 
     printf("Processos por segundo: ");
     print_float(proc_count, tot_time, 5);
     printf("\n");
 
 
-    printf("Vazão: ");
-    const int C = 10000;
-    int trgput_sum = 0, t_max = 0, t_min = 2000000000;
+    printf("Vazao: ");
+    long C = 10000;
+    long trgput_sum = 0, t_max = 0, t_min = proc_times[0];
     
     for(int i = 0; i < proc_count; i++){
       trgput_sum += C / proc_times[i];
@@ -109,14 +112,14 @@ int main() {
       t_min = min(t_min, proc_times[i]);
     }
 
-    int trgput_num = t_min * t_max * trgput_sum - proc_count * C * t_min;
-    int trgput_den = proc_count * C * (t_max - t_min);
+    long trgput_num = t_min * t_max * trgput_sum - proc_count * C * t_min;
+    long trgput_den = proc_count * C * (t_max - t_min);
     trgput_num = trgput_den - trgput_num;
 
     print_float(trgput_num, trgput_den, 5);
     printf("\n");
 
-    int fairness_num = 0, fairness_den = 0;
+    long fairness_num = 0, fairness_den = 0;
     for (int i = 0; i < proc_count; ++i) {
       fairness_num += proc_times[i];
       fairness_den += proc_times[i] * proc_times[i];
@@ -139,7 +142,7 @@ int main() {
 
     printf("Desempenho geral do sistema: ");
 
-    int tot  = trgput_num * (C / 4) / (trgput_den);
+    long tot  = trgput_num * (C / 4) / (trgput_den);
         tot += fairness_num * (C / 4) / fairness_den;
         tot += (C / 4) / file_time;
         tot += (C / 4) / mem_time;

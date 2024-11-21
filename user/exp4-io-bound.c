@@ -58,7 +58,7 @@ void permute_lines(int * mem_time, int * file_time){
     int l1 = random(0, 99);
     int l2 = random(0, 99);
 
-    for(int i = 0; i <= line_size; i++){
+    for(int i = 0; i < line_size; i++){
       swap(&buf[l1 * (line_size + 1) + i], &buf[l2 * (line_size + 1) + i]);
     }
 

@@ -146,6 +146,8 @@ found:
   p->context.ra = (uint64)forkret;
   p->context.sp = p->kstack + PGSIZE;
 
+  p->time_running = 0;
+
   return p;
 }
 
@@ -454,20 +456,18 @@ scheduler(void)
     // processes are waiting.
     intr_on();
 
+    long min_time = -1;
+    struct proc *min_time_p = 0;
+
     int found = 0;
     for(p = proc; p < &proc[NPROC]; p++) {
       acquire(&p->lock);
       if(p->state == RUNNABLE) {
-        // Switch to chosen process.  It is the process's job
-        // to release its lock and then reacquire it
-        // before jumping back to us.
-        p->state = RUNNING;
-        c->proc = p;
-        swtch(&c->context, &p->context);
-
-        // Process is done running for now.
-        // It should have changed its p->state before coming back.
-        c->proc = 0;
+        int time = p->time_running;
+        if (!found || time < min_time) {
+          min_time = time;
+          min_time_p = p;
+        }
         found = 1;
       }
       release(&p->lock);
@@ -476,6 +476,16 @@ scheduler(void)
       // nothing to run; stop running on this core until an interrupt.
       intr_on();
       asm volatile("wfi");
+    } else {
+      acquire(&min_time_p->lock);
+      if(min_time_p->state == RUNNABLE) {
+        min_time_p->state = RUNNING;
+        c->proc = min_time_p;
+        swtch(&c->context, &min_time_p->context);
+        c->proc = 0;
+        ++min_time_p->time_running;
+      }
+      release(&min_time_p->lock);
     }
   }
 }

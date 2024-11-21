@@ -1,0 +1,330 @@
+RODADA 1
+7 processos CPU-bound
+13 processos IO-bound
+Processos por segundo: 0.05089
+Vazão: 0.58672
+Justica entre processos: 0.92256
+Eficiencia do sistema de arquivos: 0.00574
+Overhead de gerenciamento de memoria: 0.01052
+
+Desempenho geral do sistema: 0.38139
+
+RODADA 2
+10 processos CPU-bound
+10 processos IO-bound
+Processos por segundo: 0.02869
+Vazão: 0.48156
+Justica entre processos: 0.73121
+Eficiencia do sistema de arquivos: 0.00729
+Overhead de gerenciamento de memoria: 0.00371
+
+Desempenho geral do sistema: 0.30594
+
+RODADA 3
+10 processos CPU-bound
+10 processos IO-bound
+Processos por segundo: 0.02691
+Vazão: 0.54003
+Justica entre processos: 0.74278
+Eficiencia do sistema de arquivos: 0.00800
+Overhead de gerenciamento de memoria: 0.00333
+
+Desempenho geral do sistema: 0.32354
+
+RODADA 4
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.02375
+Vazão: 0.60778
+Justica entre processos: 0.79125
+Eficiencia do sistema de arquivos: 0.00970
+Overhead de gerenciamento de memoria: 0.00272
+
+Desempenho geral do sistema: 0.35286
+
+RODADA 5
+14 processos CPU-bound
+6 processos IO-bound
+Processos por segundo: 0.01972
+Vazão: 0.71494
+Justica entre processos: 0.82641
+Eficiencia do sistema de arquivos: 0.01250
+Overhead de gerenciamento de memoria: 0.00213
+
+Desempenho geral do sistema: 0.38899
+
+RODADA 6
+10 processos CPU-bound
+10 processos IO-bound
+Processos por segundo: 0.02699
+Vazão: 0.53203
+Justica entre processos: 0.75888
+Eficiencia do sistema de arquivos: 0.00746
+Overhead de gerenciamento de memoria: 0.00337
+
+Desempenho geral do sistema: 0.32544
+
+RODADA 7
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.02594
+Vazão: 0.51167
+Justica entre processos: 0.70310
+Eficiencia do sistema de arquivos: 0.00684
+Overhead de gerenciamento de memoria: 0.00335
+
+Desempenho geral do sistema: 0.30624
+
+RODADA 8
+6 processos CPU-bound
+14 processos IO-bound
+Processos por segundo: 0.03424
+Vazão: 0.40317
+Justica entre processos: 0.68459
+Eficiencia do sistema de arquivos: 0.00531
+Overhead de gerenciamento de memoria: 0.00549
+
+Desempenho geral do sistema: 0.27464
+
+RODADA 9
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.01960
+Vazão: 0.69386
+Justica entre processos: 0.80212
+Eficiencia do sistema de arquivos: 0.00699
+Overhead de gerenciamento de memoria: 0.00230
+
+Desempenho geral do sistema: 0.37631
+
+RODADA 10
+11 processos CPU-bound
+9 processos IO-bound
+Processos por segundo: 0.01686
+Vazão: 0.63559
+Justica entre processos: 0.83758
+Eficiencia do sistema de arquivos: 0.00408
+Overhead de gerenciamento de memoria: 0.00221
+
+Desempenho geral do sistema: 0.36987
+
+RODADA 11
+14 processos CPU-bound
+6 processos IO-bound
+Processos por segundo: 0.01762
+Vazão: 0.70977
+Justica entre processos: 0.89373
+Eficiencia do sistema de arquivos: 0.00694
+Overhead de gerenciamento de memoria: 0.00204
+
+Desempenho geral do sistema: 0.40312
+
+RODADA 12
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.02047
+Vazão: 0.55982
+Justica entre processos: 0.82473
+Eficiencia do sistema de arquivos: 0.00350
+Overhead de gerenciamento de memoria: 0.00304
+
+Desempenho geral do sistema: 0.34777
+
+RODADA 13
+8 processos CPU-bound
+12 processos IO-bound
+Processos por segundo: 0.02118
+Vazão: 0.59596
+Justica entre processos: 0.83393
+Eficiencia do sistema de arquivos: 0.00321
+Overhead de gerenciamento de memoria: 0.00335
+
+Desempenho geral do sistema: 0.35911
+
+RODADA 14
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.01996
+Vazão: 0.56962
+Justica entre processos: 0.79028
+Eficiencia do sistema de arquivos: 0.00389
+Overhead de gerenciamento de memoria: 0.00280
+
+Desempenho geral do sistema: 0.34165
+
+RODADA 15
+7 processos CPU-bound
+13 processos IO-bound
+Processos por segundo: 0.01998
+Vazão: 0.49978
+Justica entre processos: 0.81890
+Eficiencia do sistema de arquivos: 0.00278
+Overhead de gerenciamento de memoria: 0.00346
+
+Desempenho geral do sistema: 0.33123
+
+RODADA 16
+6 processos CPU-bound
+14 processos IO-bound
+Processos por segundo: 0.02347
+Vazão: 0.54051
+Justica entre processos: 0.80898
+Eficiencia do sistema de arquivos: 0.00284
+Overhead de gerenciamento de memoria: 0.00444
+
+Desempenho geral do sistema: 0.33919
+
+RODADA 17
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.02083
+Vazão: 0.77125
+Justica entre processos: 0.77778
+Eficiencia do sistema de arquivos: 0.00507
+Overhead de gerenciamento de memoria: 0.00268
+
+Desempenho geral do sistema: 0.38920
+
+RODADA 18
+14 processos CPU-bound
+6 processos IO-bound
+Processos por segundo: 0.04494
+Vazão: 0.71542
+Justica entre processos: 0.88603
+Eficiencia do sistema de arquivos: 0.01886
+Overhead de gerenciamento de memoria: 0.00518
+
+Desempenho geral do sistema: 0.40637
+
+RODADA 19
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.06230
+Vazão: 0.54262
+Justica entre processos: 0.78316
+Eficiencia do sistema de arquivos: 0.01428
+Overhead de gerenciamento de memoria: 0.00869
+
+Desempenho geral do sistema: 0.33719
+
+RODADA 20
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.06289
+Vazão: 0.59345
+Justica entre processos: 0.80892
+Eficiencia do sistema de arquivos: 0.01298
+Overhead de gerenciamento de memoria: 0.00892
+
+Desempenho geral do sistema: 0.35607
+
+RODADA 21
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.05479
+Vazão: 0.68329
+Justica entre processos: 0.84436
+Eficiencia do sistema de arquivos: 0.01785
+Overhead de gerenciamento de memoria: 0.00645
+
+Desempenho geral do sistema: 0.38799
+
+RODADA 22
+13 processos CPU-bound
+7 processos IO-bound
+Processos por segundo: 0.05319
+Vazão: 0.66205
+Justica entre processos: 0.86122
+Eficiencia do sistema de arquivos: 0.02083
+Overhead de gerenciamento de memoria: 0.00636
+
+Desempenho geral do sistema: 0.38761
+
+RODADA 23
+8 processos CPU-bound
+12 processos IO-bound
+Processos por segundo: 0.05763
+Vazão: 0.57023
+Justica entre processos: 0.83560
+Eficiencia do sistema de arquivos: 0.00877
+Overhead de gerenciamento de memoria: 0.00952
+
+Desempenho geral do sistema: 0.35603
+
+RODADA 24
+13 processos CPU-bound
+7 processos IO-bound
+Processos por segundo: 0.05128
+Vazão: 0.65308
+Justica entre processos: 0.88115
+Eficiencia do sistema de arquivos: 0.01724
+Overhead de gerenciamento de memoria: 0.00598
+
+Desempenho geral do sistema: 0.38936
+
+RODADA 25
+6 processos CPU-bound
+14 processos IO-bound
+Processos por segundo: 0.07142
+Vazão: 0.39270
+Justica entre processos: 0.78472
+Eficiencia do sistema de arquivos: 0.00970
+Overhead de gerenciamento de memoria: 0.01282
+
+Desempenho geral do sistema: 0.29999
+
+RODADA 26
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.03984
+Vazão: 0.75213
+Justica entre processos: 0.93129
+Eficiencia do sistema de arquivos: 0.00826
+Overhead de gerenciamento de memoria: 0.00546
+
+Desempenho geral do sistema: 0.42428
+
+RODADA 27
+8 processos CPU-bound
+12 processos IO-bound
+Processos por segundo: 0.03623
+Vazão: 0.59257
+Justica entre processos: 0.68015
+Eficiencia do sistema de arquivos: 0.00666
+Overhead de gerenciamento de memoria: 0.00526
+
+Desempenho geral do sistema: 0.32116
+
+RODADA 28
+12 processos CPU-bound
+8 processos IO-bound
+Processos por segundo: 0.03683
+Vazão: 0.61189
+Justica entre processos: 0.83444
+Eficiencia do sistema de arquivos: 0.01136
+Overhead de gerenciamento de memoria: 0.00460
+
+Desempenho geral do sistema: 0.36557
+
+RODADA 29
+7 processos CPU-bound
+13 processos IO-bound
+Processos por segundo: 0.04750
+Vazão: 0.51340
+Justica entre processos: 0.79127
+Eficiencia do sistema de arquivos: 0.00680
+Overhead de gerenciamento de memoria: 0.00793
+
+Desempenho geral do sistema: 0.32985
+
+RODADA 30
+9 processos CPU-bound
+11 processos IO-bound
+Processos por segundo: 0.04494
+Vazão: 0.47636
+Justica entre processos: 0.83268
+Eficiencia do sistema de arquivos: 0.00763
+Overhead de gerenciamento de memoria: 0.00671
+
+Desempenho geral do sistema: 0.33085
+.

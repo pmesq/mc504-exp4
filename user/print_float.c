@@ -2,13 +2,13 @@
 #include "kernel/stat.h"
 #include "user/user.h"
 
-void print_float(int num, int den, int precision){
-    printf("%d.", num / den);
+void print_float(long num, long den, int precision){
+    printf("%ld.", num / den);
 
-    int resto = num % den;
+    long resto = num % den;
     for(int i = 0; i < precision; i++){
         resto *= 10;
-        printf("%d", resto / den);
+        printf("%ld", resto / den);
         resto %= den;
     }
 }
