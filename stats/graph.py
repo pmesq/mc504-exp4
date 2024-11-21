@@ -6,9 +6,12 @@ general = []
 
 for i in range(30):
     a = input()
-    b = input()
-    c = input()
-    d = input()
+    input()
+    input()
+    input()
+    input()
+    input()
+    input()
     vazao.append(float(input().split()[-1]))
     justica.append(float(input().split()[-1]))
     efic.append(float(input().split()[-1]) * 10)
@@ -37,5 +40,5 @@ plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.grid(True)
 
 # Display the graph
-plt.savefig("line_graph.png", format="png", dpi=300, bbox_inches="tight")
+plt.savefig("line_graph_2.png", format="png", dpi=300, bbox_inches="tight")
 

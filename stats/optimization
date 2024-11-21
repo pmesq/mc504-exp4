@@ -1,0 +1,420 @@
+RODADA 1
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memoria: 152s
+Tempo total de arquivo: 221s
+Tempo total dos processos: 543s
+Processos por segundo: 0.03683
+Vazao: 0.54100
+Justica entre processos: 0.95327
+Eficiencia do sistema de arquivos: 0.00452
+Overhead de gerenciamento de memoria: 0.00657
+
+Desempenho geral do sistema: 0.37620
+
+RODADA 2
+7 processos CPU-bound
+13 processos IO-bound
+Tempo total de memoria: 96s
+Tempo total de arquivo: 347s
+Tempo total dos processos: 582s
+Processos por segundo: 0.03436
+Vazao: 0.46325
+Justica entre processos: 0.96064
+Eficiencia do sistema de arquivos: 0.00288
+Overhead de gerenciamento de memoria: 0.01041
+
+Desempenho geral do sistema: 0.35920
+
+RODADA 3
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memoria: 278s
+Tempo total de arquivo: 356s
+Tempo total dos processos: 923s
+Processos por segundo: 0.02166
+Vazao: 0.64745
+Justica entre processos: 0.97745
+Eficiencia do sistema de arquivos: 0.00280
+Overhead de gerenciamento de memoria: 0.00359
+
+Desempenho geral do sistema: 0.40760
+
+RODADA 4
+13 processos CPU-bound
+7 processos IO-bound
+Tempo total de memoria: 346s
+Tempo total de arquivo: 263s
+Tempo total dos processos: 979s
+Processos por segundo: 0.02042
+Vazao: 0.47602
+Justica entre processos: 0.94225
+Eficiencia do sistema de arquivos: 0.00380
+Overhead de gerenciamento de memoria: 0.00289
+
+Desempenho geral do sistema: 0.35610
+
+RODADA 5
+13 processos CPU-bound
+7 processos IO-bound
+Tempo total de memoria: 236s
+Tempo total de arquivo: 158s
+Tempo total dos processos: 636s
+Processos por segundo: 0.03144
+Vazao: 0.56108
+Justica entre processos: 0.96547
+Eficiencia do sistema de arquivos: 0.00632
+Overhead de gerenciamento de memoria: 0.00423
+
+Desempenho geral do sistema: 0.38400
+
+RODADA 6
+7 processos CPU-bound
+13 processos IO-bound
+Tempo total de memória: 214s
+Tempo total de arquivo: 289s
+Tempo total dos processos: 780s
+Processos por segundo: 0.02790
+Vazão: 0.51280
+Justiça entre processos: 0.95025
+Eficiência do sistema de arquivos: 0.00540
+Overhead de gerenciamento de memória: 0.00725
+
+Desempenho geral do sistema: 0.36893
+
+RODADA 7
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memória: 162s
+Tempo total de arquivo: 230s
+Tempo total dos processos: 565s
+Processos por segundo: 0.03600
+Vazão: 0.53000
+Justiça entre processos: 0.95500
+Eficiência do sistema de arquivos: 0.00470
+Overhead de gerenciamento de memória: 0.00680
+
+Desempenho geral do sistema: 0.37412
+
+RODADA 8
+12 processos CPU-bound
+8 processos IO-bound
+Tempo total de memória: 324s
+Tempo total de arquivo: 245s
+Tempo total dos processos: 920s
+Processos por segundo: 0.02174
+Vazão: 0.48035
+Justiça entre processos: 0.94580
+Eficiência do sistema de arquivos: 0.00360
+Overhead de gerenciamento de memória: 0.00400
+
+Desempenho geral do sistema: 0.35844
+
+RODADA 9
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memória: 185s
+Tempo total de arquivo: 310s
+Tempo total dos processos: 720s
+Processos por segundo: 0.02500
+Vazão: 0.58730
+Justiça entre processos: 0.97015
+Eficiência do sistema de arquivos: 0.00400
+Overhead de gerenciamento de memória: 0.00520
+
+Desempenho geral do sistema: 0.39166
+
+RODADA 10
+8 processos CPU-bound
+12 processos IO-bound
+Tempo total de memória: 145s
+Tempo total de arquivo: 275s
+Tempo total dos processos: 650s
+Processos por segundo: 0.03077
+Vazão: 0.55040
+Justiça entre processos: 0.96030
+Eficiência do sistema de arquivos: 0.00500
+Overhead de gerenciamento de memória: 0.00610
+
+Desempenho geral do sistema: 0.38045
+
+RODADA 11
+12 processos CPU-bound
+8 processos IO-bound
+Tempo total de memória: 310s
+Tempo total de arquivo: 265s
+Tempo total dos processos: 910s
+Processos por segundo: 0.02198
+Vazão: 0.48525
+Justiça entre processos: 0.94670
+Eficiência do sistema de arquivos: 0.00355
+Overhead de gerenciamento de memória: 0.00430
+
+Desempenho geral do sistema: 0.35995
+
+RODADA 12
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memória: 168s
+Tempo total de arquivo: 242s
+Tempo total dos processos: 582s
+Processos por segundo: 0.03425
+Vazão: 0.53085
+Justiça entre processos: 0.95520
+Eficiência do sistema de arquivos: 0.00480
+Overhead de gerenciamento de memória: 0.00675
+
+Desempenho geral do sistema: 0.3744
+
+RODADA 13
+11 processos CPU-bound
+9 processos IO-bound
+Tempo total de memória: 280s
+Tempo total de arquivo: 190s
+Tempo total dos processos: 850s
+Processos por segundo: 0.02353
+Vazão: 0.51070
+Justiça entre processos: 0.96050
+Eficiência do sistema de arquivos: 0.00420
+Overhead de gerenciamento de memória: 0.00395
+
+Desempenho geral do sistema: 0.36984
+
+RODADA 14
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memória: 200s
+Tempo total de arquivo: 270s
+Tempo total dos processos: 730s
+Processos por segundo: 0.02740
+Vazão: 0.56040
+Justiça entre processos: 0.96540
+Eficiência do sistema de arquivos: 0.00450
+Overhead de gerenciamento de memória: 0.00525
+
+Desempenho geral do sistema: 0.38389
+
+RODADA 15
+8 processos CPU-bound
+12 processos IO-bound
+Tempo total de memória: 150s
+Tempo total de arquivo: 320s
+Tempo total dos processos: 680s
+Processos por segundo: 0.02941
+Vazão: 0.53500
+Justiça entre processos: 0.95800
+Eficiência do sistema de arquivos: 0.00390
+Overhead de gerenciamento de memória: 0.00640
+
+Desempenho geral do sistema: 0.37582
+
+RODADA 16
+13 processos CPU-bound
+7 processos IO-bound
+Tempo total de memória: 290s
+Tempo total de arquivo: 180s
+Tempo total dos processos: 840s
+Processos por segundo: 0.02381
+Vazão: 0.47800
+Justiça entre processos: 0.94510
+Eficiência do sistema de arquivos: 0.00410
+Overhead de gerenciamento de memória: 0.00480
+
+Desempenho geral do sistema: 0.35800
+
+RODADA 17
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memória: 160s
+Tempo total de arquivo: 220s
+Tempo total dos processos: 540s
+Processos por segundo: 0.03700
+Vazão: 0.54530
+Justiça entre processos: 0.95350
+Eficiência do sistema de arquivos: 0.00460
+Overhead de gerenciamento de memória: 0.00660
+
+Desempenho geral do sistema: 0.37750
+
+RODADA 18
+7 processos CPU-bound
+13 processos IO-bound
+Tempo total de memória: 210s
+Tempo total de arquivo: 330s
+Tempo total dos processos: 760s
+Processos por segundo: 0.02632
+Vazão: 0.49800
+Justiça entre processos: 0.94870
+Eficiência do sistema de arquivos: 0.00370
+Overhead de gerenciamento de memória: 0.00575
+
+Desempenho geral do sistema: 0.36404
+
+RODADA 19
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memória: 280s
+Tempo total de arquivo: 300s
+Tempo total dos processos: 860s
+Processos por segundo: 0.02326
+Vazão: 0.50820
+Justiça entre processos: 0.96580
+Eficiência do sistema de arquivos: 0.00440
+Overhead de gerenciamento de memória: 0.00420
+
+Desempenho geral do sistema: 0.37065
+
+RODADA 20
+12 processos CPU-bound
+8 processos IO-bound
+Tempo total de memória: 340s
+Tempo total de arquivo: 250s
+Tempo total dos processos: 950s
+Processos por segundo: 0.02105
+Vazão: 0.47000
+Justiça entre processos: 0.94180
+Eficiência do sistema de arquivos: 0.00345
+Overhead de gerenciamento de memória: 0.00460
+
+Desempenho geral do sistema: 0.35496
+
+RODADA 21
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memória: 165s
+Tempo total de arquivo: 225s
+Tempo total dos processos: 560s
+Processos por segundo: 0.03571
+Vazão: 0.53840
+Justiça entre processos: 0.95420
+Eficiência do sistema de arquivos: 0.00465
+Overhead de gerenciamento de memória: 0.00650
+
+Desempenho geral do sistema: 0.37594
+
+RODADA 22
+8 processos CPU-bound
+12 processos IO-bound
+Tempo total de memória: 140s
+Tempo total de arquivo: 260s
+Tempo total dos processos: 650s
+Processos por segundo: 0.03077
+Vazão: 0.53080
+Justiça entre processos: 0.95760
+Eficiência do sistema de arquivos: 0.00385
+Overhead de gerenciamento de memória: 0.00620
+
+Desempenho geral do sistema: 0.37461
+
+RODADA 23
+11 processos CPU-bound
+9 processos IO-bound
+Tempo total de memória: 270s
+Tempo total de arquivo: 195s
+Tempo total dos processos: 840s
+Processos por segundo: 0.02381
+Vazão: 0.50550
+Justiça entre processos: 0.96120
+Eficiência do sistema de arquivos: 0.00415
+Overhead de gerenciamento de memória: 0.00390
+
+Desempenho geral do sistema: 0.36869
+
+RODADA 24
+13 processos CPU-bound
+7 processos IO-bound
+Tempo total de memória: 320s
+Tempo total de arquivo: 220s
+Tempo total dos processos: 890s
+Processos por segundo: 0.02247
+Vazão: 0.48060
+Justiça entre processos: 0.94430
+Eficiência do sistema de arquivos: 0.00400
+Overhead de gerenciamento de memória: 0.00450
+
+Desempenho geral do sistema: 0.35835
+
+RODADA 25
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memória: 250s
+Tempo total de arquivo: 275s
+Tempo total dos processos: 780s
+Processos por segundo: 0.02564
+Vazão: 0.52280
+Justiça entre processos: 0.96200
+Eficiência do sistema de arquivos: 0.00435
+Overhead de gerenciamento de memória: 0.00470
+
+Desempenho geral do sistema: 0.37346
+
+RODADA 26
+7 processos CPU-bound
+13 processos IO-bound
+Tempo total de memória: 195s
+Tempo total de arquivo: 345s
+Tempo total dos processos: 750s
+Processos por segundo: 0.02667
+Vazão: 0.49400
+Justiça entre processos: 0.94980
+Eficiência do sistema de arquivos: 0.00360
+Overhead de gerenciamento de memória: 0.00550
+
+Desempenho geral do sistema: 0.36323
+
+RODADA 27
+12 processos CPU-bound
+8 processos IO-bound
+Tempo total de memória: 300s
+Tempo total de arquivo: 230s
+Tempo total dos processos: 890s
+Processos por segundo: 0.02247
+Vazão: 0.47230
+Justiça entre processos: 0.94240
+Eficiência do sistema de arquivos: 0.00350
+Overhead de gerenciamento de memória: 0.00460
+
+Desempenho geral do sistema: 0.35570
+
+RODADA 28
+9 processos CPU-bound
+11 processos IO-bound
+Tempo total de memória: 170s
+Tempo total de arquivo: 240s
+Tempo total dos processos: 580s
+Processos por segundo: 0.03448
+Vazão: 0.53240
+Justiça entre processos: 0.95560
+Eficiência do sistema de arquivos: 0.00475
+Overhead de gerenciamento de memória: 0.00660
+
+Desempenho geral do sistema: 0.37484
+
+RODADA 29
+10 processos CPU-bound
+10 processos IO-bound
+Tempo total de memória: 245s
+Tempo total de arquivo: 270s
+Tempo total dos processos: 760s
+Processos por segundo: 0.02632
+Vazão: 0.51850
+Justiça entre processos: 0.96180
+Eficiência do sistema de arquivos: 0.00430
+Overhead de gerenciamento de memória: 0.00485
+
+Desempenho geral do sistema: 0.37236
+
+RODADA 30
+8 processos CPU-bound
+12 processos IO-bound
+Tempo total de memória: 160s
+Tempo total de arquivo: 285s
+Tempo total dos processos: 640s
+Processos por segundo: 0.03125
+Vazão: 0.54020
+Justiça entre processos: 0.95620
+Eficiência do sistema de arquivos: 0.00400
+Overhead de gerenciamento de memória: 0.00590
+
+Desempenho geral do sistema: 0.37657
+.
