@@ -5,7 +5,7 @@
 #include "user/exp4-cpu-bound.h"
 #include "user/exp4-io-bound.h"
 
-const int ROUNDS = 3;
+const int ROUNDS = 30;
 
 int max(int a, int b){
   if(a > b) return a;
@@ -23,8 +23,8 @@ int main() {
     
     printf("RODADA %d\n", round);
 
-    int x = 1, y = 1;
-    // int x = random(6, 14), y = 20 - x;
+    // int x = 1, y = 1;
+    int x = random(6, 14), y = 20 - x;
     int proc_count = x + y;
 
     printf("%d processos CPU-bound\n", x);
