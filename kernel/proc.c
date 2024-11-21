@@ -146,7 +146,7 @@ found:
   p->context.ra = (uint64)forkret;
   p->context.sp = p->kstack + PGSIZE;
 
-  p->time_running = 0;
+  p->sched_count = 0;
 
   return p;
 }
@@ -463,7 +463,7 @@ scheduler(void)
     for(p = proc; p < &proc[NPROC]; p++) {
       acquire(&p->lock);
       if(p->state == RUNNABLE) {
-        int time = p->time_running;
+        int time = p->sched_count;
         if (!found || time < min_time) {
           min_time = time;
           min_time_p = p;
@@ -483,7 +483,7 @@ scheduler(void)
         c->proc = min_time_p;
         swtch(&c->context, &min_time_p->context);
         c->proc = 0;
-        ++min_time_p->time_running;
+        ++min_time_p->sched_count;
       }
       release(&min_time_p->lock);
     }
