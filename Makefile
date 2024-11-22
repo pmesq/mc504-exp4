@@ -94,7 +94,7 @@ $U/initcode: $U/initcode.S
 tags: $(OBJS) _init
 	etags *.S *.c
 
-ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o $U/exp4-cpu-bound.o $U/exp4-io-bound.o $U/random.o $U/print_float.o
+ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o $U/exp4-cpu-bound.o $U/exp4-io-bound.o $U/random.o $U/print-float.o
 
 _%: %.o $(ULIB)
 	$(LD) $(LDFLAGS) -T $U/user.ld -o $@ $^

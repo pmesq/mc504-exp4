@@ -1,7 +1,7 @@
 #include "kernel/types.h"
 #include "user/user.h"
 #include "user/random.h"
-#include "user/print_float.h"
+#include "user/print-float.h"
 #include "user/exp4-cpu-bound.h"
 #include "user/exp4-io-bound.h"
 

@@ -6,7 +6,7 @@
 #include "user/user.h"
 
 /*
-    Prints to stdin the fraction p/q, with precision of d digits.
+  Prints to stdin the fraction p/q, with precision of d digits.
 */
 void print_float(long p, long q, int d);
 
